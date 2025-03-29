@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+    <div class="backslider1">
+        <div class="sslider">
+          <div class="title">
+            <h3>دسته‌بندی‌های منتخب</h3>
+          </div>
+          <div class="slider1">
+            <!-- Swiper -->
+            <div class="swiper mySlider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/slider.img/gaming1.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/slider.img/handsfree.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/slider.img/Holder Negahdarande.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/slider.img/battery.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/slider.img/mobadel o rabet.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/slider.img/am.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/slider.img/cable.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/slider.img/battery.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/slider.img/adaptor.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    <script src="./node_modules/swiper/swiper-bundle.min.js" ></script>
+    <script>
+           var swiper = new Swiper(".mySlider", {
+        slidesPerView: 5,
+        spaceBetween: 0,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
 </body>
 </html>
